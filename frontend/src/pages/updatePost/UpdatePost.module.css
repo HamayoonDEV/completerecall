@@ -1,0 +1,11 @@
+.update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+.update img{
+    height: 200px;
+    width: 200px;
+}

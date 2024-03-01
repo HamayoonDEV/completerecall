@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #363636;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar h2{
+    cursor: pointer;
+}
+.navbar span{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #CCA43B;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+.navbar span:hover{
+    opacity: 1;
+}
+
+.login{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #3a86ff;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    opacity: 0.8;
+    color: white;
+    
+}
+.login:hover{
+    opacity: 1;
+}
+.signout{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #c1121f;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    opacity: 0.8;
+    color: white;
+    opacity: 0.8;
+}
+.signout:hover{
+    opacity: 1;
+}
+.posts{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #386641;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    opacity: 0.8;
+    color: white;
+    opacity: 0.8;
+}
+.posts:hover{
+    opacity: 1;
+}

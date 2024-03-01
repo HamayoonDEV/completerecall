@@ -1,0 +1,21 @@
+.postCard{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #adb5bd;
+    padding: 1rem;
+}
+
+.postCard img{
+    height: 500px;
+    width: 500px;
+}
+.commentSection{
+    width: auto;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+

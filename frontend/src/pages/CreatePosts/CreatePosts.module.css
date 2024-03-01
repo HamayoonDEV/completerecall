@@ -1,0 +1,77 @@
+.submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 600px;
+    margin-left: 24rem;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+ 
+.textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    resize: vertical; /* allows vertical resizing */
+}
+.title{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    resize: vertical; /* allows vertical resizing */
+    margin-right: 4rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
